@@ -28,7 +28,7 @@
         </li>
       </ul>
     </div>
-    <input
+    <el-input
       ref="input"
       v-model="phone"
       type="tel"
@@ -39,7 +39,7 @@
       @blur="onBlur"
       @input="onInput"
       :required="required"
-    >
+    ></el-input>
   </div>
 </template>
 
